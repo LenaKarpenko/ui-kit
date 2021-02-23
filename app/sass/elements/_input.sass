@@ -1,0 +1,36 @@
+.search
+  height: 50px
+  background: linear-gradient(108.3deg, #5C72E8 23.49%, #5068E2 76.7%)
+  display: flex
+  border-radius: 50px
+  padding: 8px
+  &:hover
+    button
+      background: linear-gradient(108.3deg, #5A88FF 23.49%, #5081FF 76.7%)
+    input
+      width: 250px
+      padding-left: 20px
+
+  &:focus
+    outline: none
+  input
+    background: none
+    border: none
+    outline: none
+    font-family: Roboto, sans-serif
+    font-size: 18px
+    font-weight: lighter
+    padding: 0
+    width: 0
+    color: white
+    transition: .5s
+    &::placeholder
+      color: white
+  button
+    background: linear-gradient(108.3deg, #5C72E8 23.49%, #5068E2 76.7%)
+    border-radius: 50%
+    width: 50px
+    border: none
+    cursor: pointer
+    &:focus
+      outline: none
